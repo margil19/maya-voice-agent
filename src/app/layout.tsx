@@ -14,9 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://maya-voice-agent-demo.vercel.app"),
   title: "Meet Maya · AI billing agent",
   description:
     "Call Maya, an AI voice agent that handles patient billing calls for a fictional orthopedic clinic. Test callers, guardrails, and how she was improved from real calls.",
+  openGraph: {
+    type: "website",
+    siteName: "Maya",
+    title: "Meet Maya · AI billing voice agent",
+    description: "An AI billing agent that answers patient calls, run like a production deployment.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Meet Maya · AI billing voice agent",
+    description: "An AI billing agent that answers patient calls, run like a production deployment.",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
