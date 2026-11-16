@@ -1,1 +1,1 @@
-Maya, an AI billing voice agent for healthcare, shown on a live patient call explaining a deductible and offering a payment plan
+Maya: a voice agent for patient billing calls, with a simple sound-wave mark on a warm cream background
